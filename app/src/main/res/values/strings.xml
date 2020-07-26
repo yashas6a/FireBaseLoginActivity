@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">FireBaseLoginActivity</string>
+    <string name="welcome_to_the_new_activity">Welcome to the new Activity</string>
+    <string name="login">Login</string>
+    <string name="enter_name">Enter Name</string>
+    <string name="password">Password</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="logout">Logout</string>
+    <string name="about">About Us</string>
+    <string name="others">Others</string>
+    <string name="Account">My Account</string>
+    <string name="verified">Verified</string>
+    <string name="yogi_c">Yogendra C</string>
+    <string name="description">ezTODO</string>
+    <string name="share">Share</string>
+    <string name="home">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Todo">TODO LIST</string>
+    <string name="june_18_2020">June 18, 2020</string>
+    <string name="aboutinfo">Follow us on :</string>
+</resources>
