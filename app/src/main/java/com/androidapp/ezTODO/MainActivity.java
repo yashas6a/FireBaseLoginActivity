@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
     private Button eLoginBtn;
     private TextView eRegister;
     private SignInButton signInBtn;
+    public String acc_name, acc_emailid, url_dp;
     GoogleSignInClient mGoogleSignInClient;
 
     ProgressBar progressBarL;
@@ -169,7 +170,9 @@ public class MainActivity extends AppCompatActivity {
                             FirebaseUser user = fAuth.getCurrentUser();
                             updateUI(user);
                             Toast.makeText(MainActivity.this, "Welcome "+user.getDisplayName(), Toast.LENGTH_SHORT).show();
-
+                            acc_name = user.getDisplayName();
+                            acc_emailid = user.getEmail();
+                            url_dp = user.getPhotoUrl().toString();
                         } else {
                             // If sign in fails, display a message to the user.
                            // Log.w(TAG, "signInWithCredential:failure", task.getException());
