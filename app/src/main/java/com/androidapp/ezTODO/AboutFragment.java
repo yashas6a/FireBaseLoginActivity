@@ -86,7 +86,7 @@ public class AboutFragment extends Fragment {
         gmail_link.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://mail.google.com/mail/?view=cm&fs=1&to=yashas6a@gmail.com&su=FeedBack_for_ezTODO_App&body=Write_your_feedback_here")));
+                startActivity(new Intent(Intent.ACTION_VIEW, Uri.parse("https://mail.google.com/mail/?view=cm&fs=1&to=yashas6a@gmail.com&su=FeedBack_for_ezTODO_App")));
 
             }
         });

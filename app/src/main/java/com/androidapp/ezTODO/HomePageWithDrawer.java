@@ -121,7 +121,7 @@ public class HomePageWithDrawer extends AppCompatActivity {
 //                        loadFragment(fragment);
                         Intent myIntent = new Intent(Intent.ACTION_SEND);
                         myIntent.setType("text/plain");
-                        String shareBody = "Download this amazing app " + "https://";
+                        String shareBody = "Download this amazing app " + "https://drive.google.com/file/d/1Py35ZUD-NQPRPrttMD-rjO4Pi-X2loiJ/view?usp=sharing";
                         String shareSub = "Share this :";
                         myIntent.putExtra(Intent.EXTRA_SUBJECT, shareSub);
                         myIntent.putExtra(Intent.EXTRA_TEXT, shareBody);
