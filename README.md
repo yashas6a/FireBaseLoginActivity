@@ -1,5 +1,5 @@
 # EZTODO android app
- ezTODO android app is a simple todo tasks manager application in which u can manage all your tasks easily and efficiently
+ ezTODO android app is a simple todo tasks manager application in which you can manage all your tasks easily and efficiently
  
  SCREENSHOTS
  
